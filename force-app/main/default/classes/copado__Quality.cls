@@ -9,6 +9,9 @@ global class Quality implements copado.CopadoDomain {
     global Quality() {
 
     }
+    global static Map<copado__Quality_Gate_Rule__c,copado__Quality_Gate_Rule__c> findDuplicates(List<copado__Quality_Gate_Rule__c> records, List<copado__Quality_Gate_Rule_Condition__c> recordConditions) {
+        return null;
+    }
     global static copado.Quality.MatchingRulesResult matchingRules(copado.Quality.MatchingRulesRequest request) {
         return null;
     }
@@ -36,6 +39,7 @@ global class MatchingRulesResult implements copado.CopadoServiceResult {
 global class StepsRequest implements copado.CopadoServiceRequest {
     global String action;
     global List<Id> contextIds;
+    global Boolean deploymentDryRun;
     global Id environment;
     global List<copado__User_Story_Metadata__c> metadataChanges;
     global Id pipeline;

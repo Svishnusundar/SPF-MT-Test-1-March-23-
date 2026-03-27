@@ -12,10 +12,19 @@ global class GlobalAPI {
     global static void authenticateGitRepository(Id gitRepositoryId, String username, String password) {
 
     }
+    global copado.GlobalAPI.UserLicense copadoLicensesByUser(Id userId) {
+        return null;
+    }
+    global static Integer createPromotionPullRequest(copado.GlobalAPI.PromotionPullRequestRequest request) {
+        return null;
+    }
     global String createUserAPIKey() {
         return null;
     }
     global Boolean deleteCopadoLicense(Id userId) {
+        return null;
+    }
+    global String getConnectedAppName() {
         return null;
     }
     global String getCopadoServerUrl() {
@@ -28,6 +37,9 @@ global class GlobalAPI {
         return null;
     }
     global List<copado.SourceMemberResult> getRecentChanges(String orgId, Datetime dateTimeToRetrieveChanges) {
+        return null;
+    }
+    global static Boolean isGovCloud() {
         return null;
     }
     global List<copado.GlobalAPI.UserLicense> listCopadoLicenses() {
@@ -46,6 +58,9 @@ global class GlobalAPI {
         return null;
     }
     global String upsertCopadoLicense(Id userId, copado.GlobalAPI.UserLicense licenseDetails) {
+        return null;
+    }
+    global static Boolean validateOrg(Id orgId) {
         return null;
     }
 global class CopadoAPIException extends Exception {
@@ -83,7 +98,15 @@ global class CopadoLicenses {
         get;
         set;
     }
+    global Integer hasDevopsLicenseEnabled {
+        get;
+        set;
+    }
     global Integer hasFunctionLicenseEnabled {
+        get;
+        set;
+    }
+    global Integer hasMetaCacheLicenseEnabled {
         get;
         set;
     }
@@ -179,6 +202,16 @@ global class LicenseOperationResult {
 
     }
 }
+global class PromotionPullRequestRequest {
+    global String description;
+    global Id repoId;
+    global String sourceBranch;
+    global String targetBranch;
+    global String title;
+    global PromotionPullRequestRequest() {
+
+    }
+}
 global class ProxyOrgRequest {
     global String endPointUrlService;
     global String logLabelIdentifier;
@@ -199,6 +232,10 @@ global class ProxyOrgResponse {
     }
 }
 global class UserLicense {
+    global Boolean isADDEnabled {
+        get;
+        set;
+    }
     global Boolean isCADenabled {
         get;
         set;
@@ -227,6 +264,9 @@ global class UserLicense {
 
     }
     global UserLicense(Id userId, Boolean isCADenabled, Boolean isCCHenabled, Boolean isCCMenabled, Boolean isCopadoEnabled, Boolean isCSTenabled) {
+
+    }
+    global UserLicense(Id userId, Boolean isCADenabled, Boolean isCCHenabled, Boolean isCCMenabled, Boolean isCopadoEnabled, Boolean isCSTenabled, Boolean isADDEnabled) {
 
     }
 }
