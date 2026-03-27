@@ -1,4 +1,5 @@
 {
   "target-org": "arturodxtest@copado.com.arpiprod",
-  "org-api-version": "66.0"
+  "org-api-version": "66.0",
+  "org-instance-url": "https://velocity-data-1062.my.salesforce.com"
 }
