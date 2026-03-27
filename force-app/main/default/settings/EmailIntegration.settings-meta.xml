@@ -4,8 +4,8 @@
     <doesGmailStayConnectedToSalesforce>true</doesGmailStayConnectedToSalesforce>
     <enableContactAndEventSync>false</enableContactAndEventSync>
     <enableContextualEverywhere>true</enableContextualEverywhere>
-    <enableEmailTrackingInMobile>true</enableEmailTrackingInMobile>
-    <enableEngageForOutlook>false</enableEngageForOutlook>
+    <enableEmailTrackingInMobile>false</enableEmailTrackingInMobile>
+    <enableEngageForOutlook>true</enableEngageForOutlook>
     <enableExtensionHostUnrestricted>true</enableExtensionHostUnrestricted>
     <enableGmailIntegration>true</enableGmailIntegration>
     <enableInboxInternalEmailTracking>false</enableInboxInternalEmailTracking>

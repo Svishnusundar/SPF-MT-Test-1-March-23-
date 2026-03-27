@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7448ece4-7249-4f1b-a277-f174d7d9352f",
+  "appPageId" : "7fe97e67-1ab0-4fe3-8497-ddfeb8bcee4b",
+  "configurationTags" : [ ],
+  "devName" : "Intake_Form_Section_List",
+  "id" : "2ba01bc9-edbe-4f70-9149-eeda68ddc33f",
+  "label" : "Intake Form Section List",
+  "routeType" : "list-1La",
+  "type" : "route",
+  "urlPrefix" : "intakeformsection"
+}

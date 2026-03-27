@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f28b11f5-a081-4e01-b35a-077be72fab05",
+  "appPageId" : "7fe97e67-1ab0-4fe3-8497-ddfeb8bcee4b",
+  "configurationTags" : [ ],
+  "devName" : "Application_Form_Evaluation_Section_List",
+  "id" : "c9733de4-b9a3-45a3-b63f-db95c6ba0866",
+  "label" : "Application Form Evaluation Section List",
+  "routeType" : "list-4rm",
+  "type" : "route",
+  "urlPrefix" : "4rm"
+}

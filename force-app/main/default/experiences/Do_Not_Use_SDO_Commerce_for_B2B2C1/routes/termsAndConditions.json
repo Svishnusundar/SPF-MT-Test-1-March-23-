@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "33915573-02b9-4291-969f-99f204e3a200",
+  "appPageId" : "3a241bdb-3c0c-4a4f-b277-1b94130c2d69",
+  "configurationTags" : [ ],
+  "devName" : "Terms_And_Conditions",
+  "id" : "98a7df22-7a33-418a-b773-5f6cf10ad22e",
+  "label" : "Terms And Conditions",
+  "routeType" : "terms-and-conditions",
+  "type" : "route",
+  "urlPrefix" : "terms-and-conditions"
+}
